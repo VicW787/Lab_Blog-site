@@ -9,25 +9,21 @@ function App() {
 
   return (
     <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+      <section id="left">
+        <div>
+          <h1>A Journey in Tech</h1>
         </div>
         <div>
-          <h1>Hello World</h1>
+          <img src="https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmVyZHxlbnwwfHwwfHx8MA%3D%3D" className="Profile photo" alt="Profile photo" />
           <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
+            This is a short personal blog on a journey in tech.
+            A narration by Victor Wasunna.
           </p>
         </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
+
+        <button>
         </button>
+        
       </section>
 
       <div className="ticks"></div>
