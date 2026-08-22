@@ -30,27 +30,18 @@ function App() {
       <section id="next-steps">
         <div id="docs">
           
-          <h2>Documentation</h2>
+          <h2>Articles</h2>
           <p>Your questions, answered</p>
           <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
+            <li>             
             </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
+
+            <li>              
             </li>
           </ul>
         </div>
         <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
+
           <h2></h2>
           <p></p>
           <ul>
