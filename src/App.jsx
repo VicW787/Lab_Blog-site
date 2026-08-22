@@ -1,4 +1,9 @@
 import './App.css'
+import Header from './Header.jsx'
+import About from './About.jsx'
+import ArticleList from './ArticleList'
+
+
 
 function App() {
 
