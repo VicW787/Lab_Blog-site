@@ -6,3 +6,5 @@ function About ({ photo, alt, bio }) {
         </section>
     )
 }
+
+export default About
